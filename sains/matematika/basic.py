@@ -1,6 +1,3 @@
-'''Module Matematika'''
-
-
 def tambah(*args):
     '''Fungsi untuk menghitung penjumlahan'''
     hasil = 0
@@ -14,7 +11,3 @@ def kali(*args):
     for angka in args:
         hasil *= angka
     return hasil
-
-def pangkat(n):
-    '''Fungsi untuk menghitung pangkat'''
-    return lambda angka: angka ** n
